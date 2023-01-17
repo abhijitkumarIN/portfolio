@@ -10,9 +10,6 @@ import {
 import { RedirectOutSide } from '../utils';
 import { useReactToPrint } from 'react-to-print';
 export default function Cv() {
-    const [open, setOpen] = React.useState(false);
-
-    const handleOpen = () => setOpen(!open);
     const componentRef = React.useRef<HTMLInputElement>(null)
     const handlePrint = useReactToPrint({
         content: () => componentRef.current,
@@ -22,28 +19,10 @@ export default function Cv() {
         <React.Fragment>
             {/* dailog */}
 
-            <Dialog className=' dark:bg-bg-dark rounded-md' open={open} handler={handleOpen}>
-                <DialogBody className=' dark:bg-bg-dark rounded-md'  >
-                    <DialogHeader><h3 className=' text-lg dark:text-white'>Are sure want to download it ?</h3></DialogHeader>
-                </DialogBody>
-                <DialogFooter className=' dark:bg-bg-dark rounded-md' >
-                    <Button
-                        variant="text"
-                        color="red"
-                        onClick={handleOpen}
-                        className="mr-1"
-                    >
-                        <span>Cancel</span>
-                    </Button>
-                    <Button variant="gradient" onClick={handlePrint}>
-                        <span>Confirm</span>
-                    </Button>
-                </DialogFooter>
-            </Dialog>
             {/* dailog has been finshed  */}
             <div className='lg:px-12 md:px-3 px-1'>
                 <div className="flex justify-end">
-                    <Button onClick={handleOpen} variant="gradient">
+                    <Button onClick={handlePrint} variant="gradient">
                         Get it ?
                     </Button>
                 </div>

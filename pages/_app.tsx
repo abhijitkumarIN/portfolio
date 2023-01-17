@@ -2,7 +2,7 @@ import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import React from 'react'
 import { Layout } from '../components';
-import { Switch } from "@material-tailwind/react";
+import Footer from '../components/Footer';
 export default function App({ Component, pageProps }: AppProps) {
   const [isDark, SetBackground] = React.useState(false)
   const toggle = React.useCallback(() => {
@@ -18,6 +18,7 @@ export default function App({ Component, pageProps }: AppProps) {
         </div>
       </div>
       <Component {...pageProps} />
+      <Footer/>
     </Layout>
   )
 }
