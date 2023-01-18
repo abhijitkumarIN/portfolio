@@ -5,12 +5,29 @@ import { Layout } from '../components';
 import Footer from '../components/Footer';
 export default function App({ Component, pageProps }: AppProps) {
   const [isDark, SetBackground] = React.useState(false)
+
   const toggle = React.useCallback(() => {
     document.documentElement.classList.toggle('dark')
     let isExistClass = document.documentElement.classList.contains('dark')
     SetBackground(isExistClass)
+    try {
+      if (isExistClass) {
+        localStorage.setItem('dark', 'dark')
+      } else {
+        localStorage.removeItem('dark')
+      }
+    } catch (error) {
+      console.log(error)
+    }
   }, [])
 
+  React.useEffect(() => {
+    if (isDark || localStorage.getItem('dark')) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
+  }, [isDark])
   return (
     <Layout>
       <div className='relative block pb-16 '>
@@ -18,7 +35,7 @@ export default function App({ Component, pageProps }: AppProps) {
         </div>
       </div>
       <Component {...pageProps} />
-      <Footer/>
+      <Footer />
     </Layout>
   )
 }

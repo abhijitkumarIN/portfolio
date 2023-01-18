@@ -33,7 +33,7 @@ export default function Cv() {
                         <div className=''>
                         </div>
                         <div className=''>
-                            <p className='dark:text-white font-semibold'>ABHIJIT KUMAR  </p>
+                            <p className='dark:text-white font-semibold'>ABHIJIT KUMAR MAURYA</p>
                             <p className='dark:text-dark underline cursor-pointer' onClick={() => RedirectOutSide('mailto:abhijeetkumarlucknow@gmail.com?subject = Clients &body = Message"')}>abhijeetkumarlucknow@gmail.com</p>
                             <p className='dark:text-dark'>Chandarpur Malagaha 274306 Kushinagar , UP</p>
                         </div>
@@ -44,10 +44,10 @@ export default function Cv() {
                             <section className='mb-2'>
                                 <div className='text-lg font-semibold dark:text-white gap-4'>OBJECTIVE</div>
                                 <article className='dark:text-dark'>
-                                    Interest in programming and coding requiring conceptual and analytical thinking. I enjoy making highly optimised applications and real life problems solving automation
+                                    Interest in programming and coding requiring conceptual and analytical thinking. I enjoy making highly optimised applications and real life automation problems solving 
 
                                     i continuously emphasize exploring and solving problems
-                                    That s the result of this. In the past I ve developed end to end satisfied optimised Admin & Dashboard and application for multinational clients with various kinds of tech tools
+                                    That s the result of this. In the past I have developed end to end satisfied optimised Admin & Dashboard and application for multinational clients with various kinds of tech tools
                                 </article>
                             </section>
                             {/* education */}
@@ -88,12 +88,13 @@ export default function Cv() {
                                 <div className='text-lg font-semibold dark:text-white'>PROJECTS</div>
                                 <div className="">
                                     <section className='dark:text-dark pr-2'>
-                                        During this journey i ve worked on various type projects still i would like to mention my few  project of those projects which i developed in each company
-                                        these projec re mentioned below
+                                        During this journey i have worked on various type projects still i 
+                                        would like to mention my few  project of those projects which i have developed in each company
+                                        these projec are mentioned below
                                     </section>
                                 </div>
                                 <section className='my-3'>
-                                    <div className='dark:text-white font-semibold'>Ecomerce Site</div>
+                                    <div className='dark:text-white font-semibold'>Ecommerce Site</div>
                                     <article className='dark:text-dark pr-2 '>
                                         It is React base Theme of Ecomerce Site which i develped with Tailwindcss , Redux-toolkit and Redux-persist
                                         it was first   fully-fleshed Ecomerce site which i developed at first time in my first company (spysr service Pvt Ltd)
@@ -102,23 +103,24 @@ export default function Cv() {
                                 <section className='my-3'>
                                     <div className='dark:text-white font-semibold'>Travel & Hotel Booking Site  </div>
                                     <article className='dark:text-dark '>
-                                        It was multi purpose theme of React application related Travel & tour and Hotel booking web application i devloped using
+                                        It was a multi purpose theme of React application related Travel & Tour and Hotel booking web application  devloped using
                                         Tailwindcss , Material UI styled-component etc .
                                     </article>
                                 </section>
                                 <section className='my-3'>
-                                    <div className='dark:text-white font-semibold'>Theme</div>
+                                    <div className='dark:text-white font-semibold'>Themes</div>
                                     <article className='dark:text-dark '>
-                                        In my First company i was worked on basically on Frontend where in initial time i devloped various information theme for automated CRM
-                                        in NextJS framework so that was some major project of my first company which i liked to mentioned here
+                                        In my First company i was worked on basically on Frontend where 
+                                        in initial time i developed various information theme for automated CRM
+                                        in NextJS framework so that was few  project of my first company which i liked to mentioned here
                                     </article>
                                 </section>
                                 <section className='my-3'>
                                     <div className='dark:text-white font-semibold'>DashBoard  CRM</div>
                                     <article className='dark:text-dark '>
-                                        After that i joined Rbarn soft LLP where i got opportunity to work independently for Dashboard
-                                        so far i  developed various Dashboard of variouse type and variouse perpuse using ReactJS , ViteJS framework and variouse tools like
-                                        AntD , Redux-toolkit , Yup , React-hook-form , styled-component , Tailwindcss , Material-Tailwind , GraphJS and AntChart etc.
+                                        After that I joined Rbarn soft LLP where i got opportunity to work independently for Dashboard
+                                        so far i  developed various Dashboard for variouse purpose using ReactJS , ViteJS framework and variouse tools like
+                                        AntD , Redux-toolkit , Yup , React-hook-form , styled-component , Tailwindcss , Material-Tailwind , ChartJS and AntChart etc.
                                     </article>
                                 </section>
                                 <section className='my-3'>
@@ -164,20 +166,19 @@ export default function Cv() {
                                 <article className='dark:text-dark my-2'>
                                     <p className='dark:text-white font-semibold'>Logical Layer FrameWork </p>
                                     <ul className='pl-5'>
-                                        <li>NodeJS</li>
-                                        <li>ExpresJS</li>
+                                        <li>NodeJS & ExpresJS</li>
                                         <li>MongoDB</li>
-                                        <li>Django</li>
+                                        <li>Django & DjangoRestFrameWork</li>
                                     </ul>
                                 </article>
                                 <article className='dark:text-dark my-2'>
-                                    <p className='dark:text-white font-semibold'>Operation s Tools   </p>
+                                    <p className='dark:text-white font-semibold'>Operational Tools   </p>
                                     <ul className='pl-5'>
-                                        <li>AWS</li>
-                                        <li>Docker</li>
-                                        <li>Git & Github</li>
                                         <li>VS code</li>
                                         <li>Fleet</li>
+                                        <li>Git & Github</li>
+                                        <li>AWS</li>
+                                        <li>Docker</li>
                                     </ul>
                                 </article>
                                 <article className='dark:text-dark my-2'>

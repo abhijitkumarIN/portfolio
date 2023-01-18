@@ -20,10 +20,10 @@ export default function Services() {
                         <div className='lg:col-span-4 md:col-span-12 col-span-12'>
                             <div className='filteration mb-14'>
                                 <Select className='dark:bg-bg-dark dark:text-white' label="Filter">
-                                    <Option className=''>FrontEnd</Option>
+                                    <Option className=''>Front-End</Option>
                                     <Option>Back-End</Option>
                                     <Option>FullStack</Option>
-                                    <Option>Javscript</Option>
+                                    <Option>JavaScript</Option>
                                     <Option>Java</Option>
                                     <Option>Python</Option>
                                 </Select>
