@@ -196,7 +196,7 @@ export default function Cv() {
                                 <article className='dark:text-dark my-2'>
                                     <ul className='pl-5'>
                                         <li>Hindi</li>
-                                        <li>Exceptional English</li>
+                                        <li>English</li>
                                     </ul>
                                 </article>
                             </section>
