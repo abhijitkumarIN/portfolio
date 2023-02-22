@@ -16,7 +16,7 @@ export default function TabsFeature() {
 
     const data = [
         {
-            label: "Skills",
+            label: "",
             value: "html",
             desc: (
                 <React.Fragment>
