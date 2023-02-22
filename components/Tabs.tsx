@@ -24,33 +24,33 @@ export default function TabsFeature() {
                 </React.Fragment>
             )
         },
-        {
-            label: "Projects",
-            value: "react",
-            desc: (
-                <React.Fragment>
-                    <div className="mt-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
-                        {
-                            Array(4, 8, 4).map((_, index) => (
-                                <div className="mb-6" key={index}>
-                                    <CardCostum />
-                                </div>
-                            ))
-                        }
-                    </div>
-                </React.Fragment>
+//         {
+//             label: "Projects",
+//             value: "react",
+//             desc: (
+//                 <React.Fragment>
+//                     <div className="mt-10 grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5">
+//                         {
+//                             Array(4, 8, 4).map((_, index) => (
+//                                 <div className="mb-6" key={index}>
+//                                     <CardCostum />
+//                                 </div>
+//                             ))
+//                         }
+//                     </div>
+//                 </React.Fragment>
 
-            )
-        },
-        {
-            label: "Freelance",
-            value: "svelte",
-            desc: (
-                <React.Fragment>
-                    <Services />
-                </React.Fragment>
-            )
-        },
+//             )
+//         },
+//         {
+//             label: "Freelance",
+//             value: "svelte",
+//             desc: (
+//                 <React.Fragment>
+//                     <Services />
+//                 </React.Fragment>
+//             )
+//         },
     ];
    
   
